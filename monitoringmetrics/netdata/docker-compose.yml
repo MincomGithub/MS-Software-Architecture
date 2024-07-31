@@ -40,3 +40,4 @@ volumes:
   caddy_config:
   netdatalib:
   netdatacache:
+  netdataconfig:
