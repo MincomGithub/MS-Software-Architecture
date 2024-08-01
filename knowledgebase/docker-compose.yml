@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  trilium:
+    image: zadam/trilium
+    container_name: Trilium-111
+    restart: unless-stopped
+    ports:
+      - 4292:8080
+    volumes:
+      - ./trilium:/home/node/trilium-data:rw
