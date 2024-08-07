@@ -17,7 +17,7 @@ services:
     depends_on:
       - db
     environment:
-      APP_FULL_BASE_URL: http://146.190.144.209
+      APP_FULL_BASE_URL: http://192.168.1.103
       DATASOURCES_DEFAULT_HOST: "db"
       DATASOURCES_DEFAULT_USERNAME: "passbolt"
       DATASOURCES_DEFAULT_PASSWORD: "P4ssb0lt"
